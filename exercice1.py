@@ -51,8 +51,8 @@ price_book = f"The book is {book} and the prise {price} rand "
 print(price_book)
 '''
 
-# METHOD OF STRING
-#------------------
+# METHOD OF STRING OR FUNCTIONS
+#------------------ ------------
 '''
 name = 'frank'
 new = name.capitalize() # convert the first name into capital letter
@@ -108,7 +108,7 @@ description = 'Frank Mpoyi is Python Developer in cape town '
 new = description.strip() # it removes unwanted white-space from string
 print(new)
 
-'''
+
 
 
 name = 'I love FRANK'
@@ -124,3 +124,4 @@ description = 'Frank Mpoyi is Python Developer in cape town '
 new = len(description) # it will print the length of the string
 print(new)
 
+'''
