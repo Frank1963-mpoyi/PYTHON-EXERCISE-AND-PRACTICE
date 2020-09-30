@@ -17,3 +17,21 @@ else:
     # if the user guess 3 times and failed the condition will fall in Else statement
 
 '''
+
+command = " "
+
+while command != "quit":
+    command = input("> ").lower()
+    if command == "start":
+        print("car started .....")
+    elif command == "stop":
+        print("car stopped")
+    elif command == "help":
+        print(""" 
+        start - to start the car
+        stop - to stop the car
+        quit - to quit
+        
+        """)
+    else:
+        print("Sorry i dont understand that")
